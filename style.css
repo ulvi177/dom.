@@ -1,13 +1,25 @@
 body {
-  font-family: 'Dosis', sans-serif;
+  font-family: "Dosis", sans-serif;
   font-weight: 500;
 }
 
 a {
   color: orange;
 }
-
 a:hover {
   color: black;
 }
-/*# sourceMappingURL=style.css.map */
+
+#todo2 .box {
+  background-color: #8f6d6d;
+  width: 400px;
+  display: flex;
+}
+#todo2 .box h1 {
+  font-size: 50px;
+  color: #ffffff;
+}
+#todo2 .box input {
+  border: 1px;
+  color: #ba3a3a;
+}/*# sourceMappingURL=style.css.map */
