@@ -1,15 +1,3 @@
-body {
-  font-family: "Dosis", sans-serif;
-  font-weight: 500;
-}
-
-a {
-  color: orange;
-}
-a:hover {
-  color: black;
-}
-
 #todo2 .box {
   background-color: #8f6d6d;
   width: 350px;
