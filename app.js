@@ -2,18 +2,25 @@
 $(document).ready(function () {
 
 
-    $('.btn').click(function (e) {
-        e.preventDefault();
+    function add() {
+        let input = $("input");
+        let value = input.value.trim();
+        if (value === "") {
+            let div = $("div");
+            div.className = "todo-item";
+            div.textContent = value
+            $("#list").appendChild(div);
+            input.value = "";
 
-        let result = "";
-            for (let i = 0; i <= number; i++) {
-                $('.col-md-12').append(`<h2>${i}</h2>`);
-            }
 
-            
-        a($('input').val());
-    });
-  
+
+
+        });
+
+
+
+
 
 
 });
+

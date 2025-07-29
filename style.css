@@ -6,19 +6,19 @@
 }
 #todo2 .box h1 {
   font-size: 50px;
-  color: #ffffff;
+  color: #f7f5f5;
   text-align: center;
 }
 #todo2 .box input {
-  color: black;
+  color: #ffffff;
   font-size: 25px;
   margin: 20px 60px 20px 60px;
   border-radius: 50px;
   padding: 18px;
 }
-#todo2 .box .btn {
-  background-color: #ffffff;
-  color: black;
+#todo2 .box button {
+  background-color: #e6e2e2;
+  color: #200b0b;
   margin: 10px 110px;
   border-radius: 50px;
   padding: 10px;
